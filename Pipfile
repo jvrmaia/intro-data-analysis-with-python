@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+requests = "*"
+requests-html = "*"
+scikit-learn = "*"
+sqlalchemy = "*"
+mysqlclient = "*"
+jupyter = "*"
+jupyterlab = "*"
+twitter = "*"
+docker-compose = "*"
+pymysql = "*"
+bokeh = "*"
+pandasql = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
